@@ -127,6 +127,15 @@ if df.empty:
     st.info("No data loaded. Check profile config or upload JSON.")
     st.stop()
 
+if 'Task' not in df.columns:
+    df['Task'] = ''
+    
+if 'Subtask' not in df.columns:
+    df['Subtask'] = ''
+
+if 'Category' not in df.columns:
+    df['Category'] = ''
+
 # Composite category
 df['FullCategory'] = (
     df['Task'].fillna('') + '/' + df['Subtask'].fillna('') + '/' + df['Category'].fillna('')

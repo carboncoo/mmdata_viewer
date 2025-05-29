@@ -1,0 +1,21 @@
+[
+    {
+      "Question_id": "perception/diagram_and_table/diagram/0001",
+      "Image": "apartment10JV.jpg",
+      "Text": "What's the percentage of Operating Expenses in FY 2025 in this table?",
+      "Question Type": "Multiple Choice",
+      "Answer choices": [
+        "(A) 24%",
+        "(B) 13%",
+        "(C) 12%",
+        "(D) 11%",
+        "(E) This image doesn't feature the data."
+      ],
+      "Ground truth": "B",
+      "Category": "diagram",
+      "Subtask": "Diagram and Table",
+      "Task": "Perception",
+      "response": "(D)",
+      "correct": false
+    }
+]

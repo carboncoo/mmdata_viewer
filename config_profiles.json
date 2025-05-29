@@ -1,0 +1,12 @@
+{
+  "HRScene": {
+    "json_path": "example_data/hrscene/annotations.json",
+    "pred_dir": "",
+    "image_root": "example_data/hrscene/images"
+  },
+  "MME-Realworld": {
+    "json_path": "example_data/mme_realworld/MME_realworld.json",
+    "pred_dir": "example_data/mme_realworld/mme_realwolrd_test_results",
+    "image_root": "example_data/mme_realworld/mme_images"
+  }
+}
